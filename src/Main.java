@@ -26,7 +26,6 @@ public class Main {
         System.out.println(cities);
         System.out.println(newCities);
 
-
         Map<String, Integer> mapCities = new HashMap<String, Integer>();
 
         for (int i = 0; i < cities.size(); i++) {
