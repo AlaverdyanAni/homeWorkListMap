@@ -6,7 +6,7 @@ public class Main {
         List<Integer> nums = new ArrayList<>(List.of(16, 1, 8, 6, 22, 1, 2, 3, 4, 4, 5, 5, 6, 7,8));
         for (Integer n : nums) {
             if (n % 2 != 0) {
-                System.out.print(n+ ", ");
+                System.out.print(n+ " ");
             }
         }
         System.out.println();
@@ -14,7 +14,7 @@ public class Main {
         Set<Integer> newNums = new HashSet<>(nums);
         for (Integer n : newNums) {
             if (n % 2 == 0) {
-                System.out.print(n + ", ");
+                System.out.print(n + " ");
             }
         }
         System.out.println();
