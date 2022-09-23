@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
         List<Integer> nums = new ArrayList<>(List.of(16, 1, 8, 6, 22, 1, 2, 3, 4, 4, 5, 5, 6, 7, 8));
         for (Integer n : nums) {
             if (n % 2 != 0) {
